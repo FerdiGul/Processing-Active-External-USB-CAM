@@ -11,4 +11,8 @@ video = new GSCapture(this, 640, 480, devices[1]); //That's my phone cam Id vide
 
 public void draw() {
 
-if (video.available() == true) { video.read(); image(video,640,0); } }
+if (video.available() == true) { 
+  video.read(); image(video,640,0); 
+} 
+
+}
