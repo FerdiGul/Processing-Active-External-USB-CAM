@@ -15,4 +15,9 @@ video.start();
 
 public void draw() {
 
-if (video.available() == true) { video.read(); image(video,640,0); } }
+if (video.available() == true) { 
+video.read(); 
+image(video,640,0); 
+}
+
+}
