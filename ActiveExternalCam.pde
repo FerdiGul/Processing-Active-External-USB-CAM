@@ -6,7 +6,8 @@ void setup(){ //some code block
 String[] devices = GSCapture.list() //I own this lib, so if you use Capture lib, shuffle with "no GS, only Capture" 
 //println(devices) if you wanna get cam's id.
 
-video = new GSCapture(this, 640, 480, devices[1]); //That's my phone cam Id video.start();
+video = new GSCapture(this, 640, 480, devices[1]); //That's my phone cam Id 
+video.start();
 
 //some code block
 
